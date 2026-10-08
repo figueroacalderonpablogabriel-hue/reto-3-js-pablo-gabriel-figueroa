@@ -1,8 +1,8 @@
-* { box-sizing: border-box; }
+ *{ box-sizing: border-box; }
 
 body {
   margin: 0;
-  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   background: #fff;
   color: #212529;
 }
