@@ -9,6 +9,7 @@ function ordenarNombres() {
   nombres.sort((a, b) => a.localeCompare(b, "es", { sensitivity: "base" }));
 }
 
+//comentqrio
 function mostrarNombres() {
   listaNombres.value = nombres.join("\n");
 }
