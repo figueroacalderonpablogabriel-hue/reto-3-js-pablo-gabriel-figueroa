@@ -1,0 +1,74 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #fff;
+  color: #212529;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h1 { font-size: 1.8rem; font-weight: 500; margin: 0 0 8px; }
+h2 { font-size: 1.3rem; font-weight: 500; margin: 32px 0 8px; }
+
+hr { border: 0; border-top: 1px solid #dee2e6; margin: 8px 0 12px; }
+
+.ayuda { font-size: 0.85rem; color: #6c757d; margin: 0 0 16px; }
+
+.fila {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.fila label { font-size: 0.9rem; color: #6c757d; }
+
+input[type="text"] {
+  flex: 1;
+  min-width: 140px;
+  padding: 6px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.2);
+}
+
+.btn {
+  background: #0d6efd;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  padding: 7px 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn:hover { background: #0b5ed7; }
+
+.btn-pequeno { padding: 5px 12px; font-size: 0.8rem; align-self: flex-start; }
+
+.fila-lista { align-items: flex-start; flex-wrap: nowrap; }
+
+textarea {
+  flex: 1;
+  height: 220px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  resize: vertical;
+  background: #fff;
+}
